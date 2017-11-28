@@ -1,0 +1,590 @@
+Name,Category,Blended Result,Salary ($ USD),Employment (in USA),Overall,Fit,Work Env,Interest,Skill Util,Meaning,Salary
+Pastry Chef,Food & Drink,3.4,,,3.3,3.9,3.2,4.0,3.3,2.9,2.5
+Audio Engineer,Technology,4.0,49870.0,16100,3.9,4.2,4.0,4.3,3.7,3.6,2.9
+Cake Designer,Food & Drink,3.8,,,3.6,4.3,3.9,4.4,3.5,3.2,2.6
+Money Manager,Finance,3.6,,,3.3,4.0,3.9,3.9,3.4,2.9,3.8
+Architect,Home & Garden,3.4,74520.0,112600,3.2,3.7,3.4,3.8,3.2,3.0,2.8
+Chiropractor,Alternative Health Care,3.6,66720.0,45200,3.2,4.0,3.7,3.9,3.4,3.3,2.5
+Dentist,Physicians,3.2,149540.0,129000,3.0,3.5,3.3,3.3,3.2,2.9,3.2
+Circus Performer,Performing Arts,3.8,,,3.8,4.4,4.0,4.2,3.2,3.1,2.7
+Doctor,Physicians,3.7,,,3.5,3.9,3.5,4.0,3.6,3.8,3.6
+Firefighter,Public & Social Services,3.9,45970.0,327300,3.8,4.1,3.9,4.2,3.6,3.9,3.3
+Florist,Public & Social Services,3.7,24750.0,58700,3.7,4.1,3.8,4.1,3.2,3.1,2.7
+Hairdresser,Public & Social Services,3.4,23120.0,597200,3.2,3.9,3.4,3.7,3.2,2.8,2.6
+Interior Designer,Home & Garden,3.7,48400.0,58900,3.6,4.0,3.8,4.0,3.5,3.3,3.0
+Make-Up Artist,Beauty & Style,3.9,44310.0,3600,3.8,4.2,3.7,4.3,3.6,3.4,3.0
+Personal Trainer,Sports & Fitness,3.7,,,3.6,4.1,3.9,4.0,3.2,3.4,2.7
+Photographer,Visual Arts,4.0,30490.0,124900,4.0,4.2,4.0,4.3,3.8,3.7,3.0
+Sommelier,Food & Drink,3.5,,,3.5,4.0,3.5,4.0,3.1,2.7,3.1
+Veterinarian,Animals,3.8,87590.0,78300,3.7,3.9,3.6,4.1,3.8,3.8,3.3
+Zoologist,Animals,4.1,58270.0,21300,4.0,4.3,4.0,4.4,3.9,4.0,3.2
+Choreographer,Performing Arts,4.2,44250.0,7100,4.2,4.4,4.2,4.4,4.0,4.0,3.0
+Marine Biologist,Physical Sciences,4.2,,,4.2,4.3,4.2,4.5,3.9,3.9,3.3
+Dairy Farmer,Agriculture,3.6,,,3.3,4.0,3.8,3.9,3.3,3.3,3.4
+Exterminator,Animals,3.0,30660.0,74100,2.7,3.7,3.3,3.3,2.6,2.5,2.9
+Actor,Performing Arts,4.2,,69400,4.2,4.3,4.0,4.5,3.9,4.0,2.8
+Filmmaker,Film & Television,4.1,69100.0,122600,4.1,4.2,3.9,4.5,4.0,3.9,2.9
+Fashion Designer,Visual Arts,3.7,64030.0,23100,3.6,3.9,3.7,4.1,3.5,3.4,2.9
+Costume Designer,Beauty & Style,4.1,,,4.1,4.4,4.0,4.5,3.9,3.7,2.6
+Aesthetician,Beauty & Style,3.5,29050.0,55000,3.4,3.9,3.6,3.8,3.1,3.0,2.7
+Accountant,Finance,2.8,65940.0,1332700,2.6,3.3,3.1,2.8,2.7,2.3,3.2
+Entrepreneur,Sales & Marketing,4.1,,,4.0,4.2,4.2,4.4,4.0,4.0,3.1
+Real Estate Agent,Sales & Marketing,3.3,40990.0,337400,3.1,3.7,3.5,3.6,3.0,2.7,3.1
+Stock Trader,Finance,3.5,72070.0,341500,3.4,3.7,3.6,4.1,3.4,2.7,3.3
+Lawyer,Law,3.0,114970.0,778700,2.7,3.4,3.0,3.4,3.1,2.6,3.3
+Computer Programmer,Technology,3.5,77550.0,328600,3.3,3.8,3.6,3.8,3.3,2.9,3.4
+Web Designer,Technology,3.5,,,3.4,3.8,3.7,3.8,3.3,3.0,3.0
+Computer Repair Technician,Public & Social Services,3.6,47610.0,585900,3.4,3.9,3.7,3.9,3.4,3.0,2.9
+Electrical Engineer,Technology,3.4,91410.0,178400,3.2,3.7,3.5,3.6,3.1,3.0,3.4
+Games Tester,Technology,3.8,,,3.9,4.1,4.0,4.0,3.2,3.1,3.0
+Special Education Teacher,Education & Childcare,3.5,57810.0,134000,3.0,3.9,3.5,3.9,3.2,3.6,2.7
+Career Counselor,Education & Childcare,4.0,,,3.8,4.4,4.1,4.2,3.7,3.9,3.2
+Principal,Education & Childcare,3.8,89540.0,240000,3.5,3.9,3.7,4.0,3.8,3.8,3.3
+Librarian,Education & Childcare,3.4,56170.0,143100,3.2,3.9,3.7,3.5,2.9,2.9,3.0
+Elementary School Teacher,Education & Childcare,3.4,54120.0,1358000,2.9,3.7,3.4,3.7,3.3,3.6,2.5
+Drug & Alcohol Counselor,Public & Social Services,3.7,39270.0,94900,3.3,3.9,3.5,4.2,3.5,3.9,2.7
+Restaurant Manager,Management,3.1,48560.0,305000,2.8,4.0,3.3,3.1,2.8,2.3,2.6
+Culinary Chef,Food & Drink,3.3,41610.0,127500,3.0,3.8,3.2,3.8,3.1,2.8,2.5
+Caterer,Food & Drink,3.0,,,2.9,3.7,3.3,3.1,2.6,2.3,2.9
+Farmer,Animals,3.7,,,3.5,4.1,3.9,3.9,3.2,3.6,2.9
+Pharmacist,Medical Care,3.0,120950.0,297100,2.8,3.5,3.1,3.2,2.8,2.8,3.2
+Physiotherapist,Public & Social Services,3.4,,,3.2,3.8,3.4,3.6,3.0,3.4,3.3
+Optometrist,Medical Care,3.2,101410.0,40600,2.8,3.7,3.5,3.3,3.2,2.7,3.4
+Nurse,Medical Care,3.3,,,2.8,3.7,3.1,3.7,3.1,3.3,3.0
+Landscaper,Home & Garden,3.2,43160.0,178000,3.0,3.7,3.6,3.3,2.6,2.6,3.0
+Certified Professional Organizer,Home & Garden,3.8,,,3.8,4.3,3.6,4.1,3.7,3.4,3.3
+Seamstress,Public & Social Services,3.6,,,3.6,3.8,3.8,3.9,3.4,3.1,2.7
+Author,Journalism & Writing,4.2,58850.0,136500,4.1,4.2,4.1,4.4,4.1,4.2,2.6
+Journalist,Journalism & Writing,3.6,36000.0,49300,3.4,3.8,3.6,4.1,3.5,3.4,2.6
+News Reporter,Journalism & Writing,3.4,,,3.2,3.6,3.3,3.9,3.4,3.2,2.6
+Editor,Journalism & Writing,3.6,54890.0,117200,3.4,4.0,3.8,3.9,3.4,3.1,2.8
+Television Writer,Film & Television,4.0,58850.0,136500,4.0,4.2,3.8,4.3,3.8,3.9,2.9
+Conductor,Performing Arts,3.9,48180.0,82100,3.8,4.1,3.7,4.3,3.8,3.7,2.7
+Music Teacher,Education & Childcare,3.6,64300.0,120700,3.3,4.0,3.7,3.9,3.4,3.4,3.1
+DJ,Public & Social Services,4.0,25730.0,10200,4.1,4.1,4.0,4.4,3.6,3.6,3.0
+Music Promoter,Sales & Marketing,4.0,,,4.0,4.2,4.0,4.2,3.6,3.8,2.8
+Composer,Music,4.3,48180.0,82100,4.2,4.2,4.2,4.6,4.2,4.3,2.4
+Lyricist,Music,4.3,,,4.3,4.4,4.3,4.6,4.2,4.4,2.7
+Singer,Music,4.2,,173300,4.3,4.3,4.1,4.4,4.1,4.3,2.9
+Political Scientist,Social Sciences,3.6,104920.0,6200,3.4,3.9,3.5,4.1,3.4,3.5,2.9
+Diplomat,Social Sciences,3.8,,,3.6,4.1,3.5,4.1,3.6,3.9,3.5
+Ambassador,Social Sciences,3.8,,,3.7,4.3,3.9,4.1,3.4,3.1,3.5
+Humanitarian,Humanities,4.0,29790.0,386600,3.8,4.2,3.8,4.3,3.5,4.2,2.6
+Archivist,Humanities,3.4,49120.0,6900,3.4,3.8,3.7,3.7,3.0,3.0,2.9
+Chemist,Physical Sciences,3.3,73480.0,91100,3.0,3.6,3.4,3.6,3.1,2.8,3.0
+Geologist,Physical Sciences,3.5,89910.0,36400,3.3,3.8,3.6,3.9,3.4,3.1,3.5
+Biologist,Physical Sciences,3.6,71940.0,114100,3.4,3.8,3.6,4.0,3.4,3.3,3.0
+Anthropologist,Humanities,3.8,59280.0,7700,3.6,3.9,3.7,4.3,3.6,3.6,2.7
+Astronomer,Physical Sciences,4.0,105410.0,1900,4.0,3.9,4.1,4.3,3.9,3.9,3.3
+Chemical Engineer,Engineering,3.3,96940.0,34300,3.0,3.6,3.3,3.6,3.2,2.9,3.5
+Sports Scout,Sports & Fitness,4.0,,,4.1,4.2,4.2,4.3,3.8,3.4,2.9
+Golf Pro,Sports & Fitness,3.5,,,3.4,4.0,3.8,3.8,3.1,3.1,2.5
+Sports Broadcaster,Sports & Fitness,4.0,,,3.9,3.8,4.0,4.5,4.0,3.5,2.9
+Equestrian,Sports & Fitness,4.1,,,4.1,4.3,4.2,4.4,3.7,3.9,2.8
+Sports Writer,Sports & Fitness,3.7,22560.0,11500,3.6,4.0,3.8,4.0,3.5,3.3,2.5
+Coach,Sports & Fitness,3.9,,,3.8,4.2,4.0,4.1,3.6,3.7,2.9
+Physical Education Teacher,Education & Childcare,3.6,58280.0,22100,3.4,4.0,3.7,3.7,3.3,3.4,3.0
+Electrician,Building & Construction,3.3,51110.0,628800,3.1,3.7,3.4,3.8,3.1,2.7,3.3
+Plumber,Building & Construction,3.0,50660.0,425000,2.8,3.5,3.2,3.4,2.7,2.4,3.1
+Welder,Manufacturing & Processing,3.4,37420.0,397900,3.2,3.8,3.4,3.8,3.3,2.9,3.3
+Sheet Metal Worker,Manufacturing & Processing,3.1,45070.0,141000,2.9,3.5,3.0,3.5,2.8,2.5,3.1
+Carpenter,Building & Construction,3.4,40820.0,945400,3.1,3.8,3.5,3.7,3.1,2.8,3.1
+Police Officer,Public & Social Services,3.6,56810.0,680000,3.3,3.9,3.6,4.0,3.3,3.5,3.1
+Pilot,Travel & Transportation Services,4.0,118140.0,75700,3.9,4.1,3.9,4.4,3.9,3.7,3.4
+Travel Agent,Travel & Transportation Services,3.3,34800.0,74100,3.1,3.8,3.4,3.7,3.1,2.8,2.6
+Flight Attendant,Travel & Transportation Services,3.5,42290.0,97900,3.4,4.2,3.6,3.6,2.9,2.9,3.3
+Tour Guide,Public & Social Services,3.7,23930.0,43500,3.7,4.1,3.9,4.0,3.2,3.2,2.8
+Air Traffic Controller,Travel & Transportation Services,3.6,122340.0,24500,3.3,3.8,3.8,3.9,3.3,3.2,3.8
+Ship Captain,Travel & Transportation Services,3.8,72340.0,35100,3.6,4.2,3.8,4.1,3.5,3.8,3.2
+Animal Caretaker,Animals,3.9,20340.0,204800,3.9,4.2,3.9,4.1,3.4,3.9,3.0
+Animal Scientist,Animals,3.7,61110.0,2900,3.5,3.9,3.7,3.9,3.6,3.6,3.3
+Announcer,Performing Arts,3.8,29790.0,42300,3.9,4.1,3.9,4.2,3.6,3.4,2.6
+Art Director,Visual Arts,4.0,85610.0,74600,3.9,4.2,4.0,4.3,3.9,3.6,3.2
+Broadcast and Sound Engineering Technician,Technology,3.6,36560.0,30100,3.4,4.1,3.8,4.0,3.2,3.1,2.8
+Auditor,Finance,2.9,65940.0,1332700,2.6,3.4,3.2,3.0,2.7,2.2,3.1
+Auto Body Repairer,Mechanical,3.4,40320.0,149700,3.1,3.8,3.4,3.9,3.2,2.8,2.8
+Baker,Food & Drink,3.2,23600.0,185300,3.1,3.7,3.3,3.7,2.8,2.6,2.5
+Bartender,Food & Drink,3.1,19050.0,580900,3.1,4.1,3.4,3.3,2.4,2.0,3.1
+Bill and Account Collector,Finance,2.6,33700.0,350400,2.3,3.2,2.9,2.6,2.4,1.8,2.7
+Biochemist,Physical Sciences,3.5,84940.0,34100,3.4,3.8,3.6,3.8,3.4,3.2,3.1
+Biomedical Engineer,Engineering,3.5,86950.0,22100,3.3,3.7,3.5,3.8,3.4,3.2,3.4
+Boilermaker,Manufacturing & Processing,3.4,59860.0,17400,3.1,3.9,3.4,3.9,3.4,2.7,3.8
+Bookkeeper,Finance,3.0,36430.0,1760300,2.8,3.5,3.3,3.0,2.7,2.3,2.9
+Bus Driver,Travel & Transportation Services,2.9,37470.0,167800,2.9,3.6,3.2,3.1,2.3,2.3,2.8
+Camera Operator,Visual Arts,3.7,48080.0,25400,3.8,3.9,3.9,4.0,3.4,3.3,3.0
+Cargo and Freight Agent,Travel & Transportation Services,3.0,41380.0,78800,2.8,3.6,3.2,3.2,2.7,2.4,2.8
+Cartographer,Physical Sciences,3.3,60930.0,12300,3.1,3.7,3.4,3.6,3.0,2.7,3.0
+Chief Executive,Management,4.1,173320.0,343400,3.9,4.4,4.0,4.3,4.1,3.7,3.5
+Acupuncturist,Alternative Health Care,4.1,73400.0,50100,3.8,4.3,4.1,4.5,3.9,4.1,3.4
+Anesthesiologist,Physicians,3.9,,33700,3.9,4.1,3.6,4.1,4.0,3.6,3.5
+Animal Breeder,Animals,4.2,40000.0,7000,4.2,4.5,4.3,4.6,3.6,4.0,3.4
+Arbitrator,Public & Social Services,3.7,57180.0,8400,3.5,4.0,3.6,4.1,3.7,3.6,3.0
+Advertising Manager,Management,3.3,96720.0,31000,3.1,3.8,3.5,3.6,3.1,2.6,3.0
+Advertising Sales Agent,Sales & Marketing,3.0,47890.0,167900,2.7,3.6,3.3,3.2,2.8,2.4,3.1
+Aerospace Engineer,Engineering,3.7,105380.0,72500,3.6,4.1,3.8,4.1,3.5,3.3,3.6
+Aircraft Mechanic,Mechanical,3.4,56990.0,119900,3.1,3.8,3.4,3.9,3.2,3.0,3.1
+Aviation Inspector,Mechanical,3.8,69170.0,26400,3.5,4.2,4.1,4.0,3.6,3.4,3.3
+Ambulance Dispatcher,Public & Social Services,3.4,37410.0,102000,3.0,3.8,3.1,4.0,3.1,3.4,3.0
+Archaeologist,Humanities,3.8,59280.0,7700,3.7,4.0,3.7,4.3,3.5,3.5,2.6
+Avionics Technician,Travel & Transportation Services,3.5,56910.0,17400,3.1,3.9,3.6,3.8,3.3,3.1,3.1
+Athlete,Sports & Fitness,4.2,43350.0,13700,4.2,4.4,4.3,4.4,4.1,4.0,3.0
+Audio and Video Equipment Technician,Technology,3.5,41780.0,70900,3.3,4.1,3.7,3.9,3.2,2.8,3.2
+Brickmason,Building & Construction,2.9,47650.0,78100,2.6,3.4,3.1,3.5,2.6,2.5,3.4
+Automotive Service Technician,Mechanical,3.4,37120.0,739900,3.1,3.8,3.4,3.9,3.2,2.7,2.7
+Butcher,Food & Drink,2.8,28660.0,139000,2.7,3.3,2.9,3.2,2.5,2.1,2.6
+Cabinetmaker,Building & Construction,3.3,31580.0,98100,3.1,3.7,3.5,3.7,3.0,2.8,3.0
+Childcare Program Administrator,Education & Childcare,3.6,45260.0,64000,3.2,4.0,3.7,3.7,3.4,3.5,2.7
+Childcare Worker,Education & Childcare,3.4,19730.0,1260600,3.3,3.9,3.5,3.6,3.0,3.3,2.7
+Clinical Psychologist,Medical Care,3.7,68900.0,155300,3.3,3.9,3.7,4.0,3.6,3.9,3.2
+Commercial Diver,Mechanical,3.8,45890.0,4400,3.6,4.0,3.9,4.3,3.5,3.6,3.8
+Civil Engineer,Engineering,3.2,82050.0,281400,2.9,3.6,3.3,3.5,3.1,2.8,3.3
+Climate Change Analyst,Physical Sciences,4.1,66250.0,94600,4.0,4.3,4.0,4.2,3.8,4.1,3.4
+Commercial Fisherman,Travel & Transportation Services,3.3,35250.0,,3.2,3.8,3.4,3.7,2.8,2.8,3.5
+Commercial Pilot,Travel & Transportation Services,3.9,75620.0,43500,3.8,4.1,3.9,4.2,3.6,3.6,3.6
+Computer Hardware Engineer,Engineering,3.7,108430.0,77700,3.6,3.9,3.7,4.0,3.6,3.3,3.4
+Conservation Scientist,Physical Sciences,3.7,61860.0,21100,3.5,3.9,3.8,4.2,3.4,3.8,3.1
+Construction Manager,Management,3.4,85630.0,373200,3.1,3.7,3.5,3.7,3.3,2.9,3.4
+Construction Painter,Building & Construction,2.8,35950.0,360500,2.7,3.5,3.1,2.9,2.4,2.2,3.0
+Construction Worker,Building & Construction,3.0,31090.0,1159100,2.7,3.4,3.1,3.3,2.7,2.5,3.1
+Correctional Officer,Law,2.8,39780.0,457600,2.3,3.4,2.8,3.1,2.5,2.4,3.0
+Courier,Travel & Transportation Services,2.9,26640.0,92900,2.8,3.8,3.6,2.9,2.1,2.1,2.5
+Craft Artist,Visual Arts,4.1,31080.0,10600,4.1,4.2,4.1,4.4,3.8,3.8,2.6
+Curator,Humanities,3.8,51280.0,13100,3.6,4.0,3.9,4.3,3.6,3.5,2.6
+Dancer,Performing Arts,4.1,,13000,4.1,4.2,4.0,4.4,3.8,3.9,2.9
+Drafter,Technology,3.2,49970.0,94000,3.0,3.7,3.4,3.5,3.0,2.7,3.1
+Event Planner,Public & Social Services,3.7,46490.0,100000,3.6,4.1,3.8,4.0,3.5,3.2,2.9
+Family Social Worker,Public & Social Services,3.4,42120.0,305200,2.9,3.7,3.2,3.8,3.2,3.5,2.4
+Financial Advisor,Finance,3.1,81060.0,249400,2.7,3.5,3.3,3.4,2.9,2.7,3.0
+Control Center Specialist,Military,3.2,,,2.8,3.6,3.4,3.4,3.0,3.0,3.4
+Forensic Science Technician,Law,3.8,55360.0,14400,3.7,3.9,3.9,4.1,3.5,3.6,3.5
+Funeral Director,Public & Social Services,3.7,47250.0,31100,3.2,4.2,3.5,4.2,3.5,3.7,2.9
+Correspondent,Journalism & Writing,3.4,,,3.2,3.8,3.6,3.8,3.0,3.3,3.2
+Geographer,Physical Sciences,3.4,76420.0,1400,3.3,3.8,3.5,3.6,3.2,3.1,3.1
+Customs Inspector,Law,3.3,79870.0,116700,2.9,3.8,3.5,3.8,2.8,2.9,3.5
+Glazier,Manufacturing & Processing,2.7,38410.0,45300,2.5,3.3,3.2,3.0,2.3,2.0,2.8
+Graphic Designer,Visual Arts,3.6,45900.0,261600,3.4,3.9,3.7,3.9,3.4,3.0,2.9
+Health Services Manager,Medical Care,3.3,92810.0,333000,3.0,3.8,3.5,3.6,3.1,3.0,3.1
+Detective,Law,3.8,79870.0,116700,3.6,4.0,3.7,4.3,3.7,3.6,3.4
+Hydrologist,Physical Sciences,3.5,78370.0,7000,3.2,3.7,3.5,4.0,3.4,3.2,3.5
+Electronic Equipment Assembler,Manufacturing & Processing,2.9,29910.0,207200,2.8,3.4,3.1,3.1,2.6,2.2,2.8
+Industrial Designer,Technology,3.7,64620.0,38400,3.5,3.9,3.7,4.1,3.5,3.3,3.1
+Exercise Physiologist,Sports & Fitness,3.7,46270.0,14500,3.4,4.0,3.7,4.0,3.5,3.5,2.8
+Explosives Worker,Engineering,3.8,52140.0,8100,3.7,4.1,3.8,4.2,3.4,3.7,4.1
+Extraction Worker,Mechanical,3.1,34480.0,25800,3.1,2.9,3.1,3.5,2.9,2.9,4.1
+Fitness and Wellness Coordinator,Sports & Fitness,3.7,77020.0,37800,3.5,4.2,3.9,3.8,3.3,3.5,2.6
+Forester,Physical Sciences,3.5,57980.0,15500,3.5,3.7,3.7,3.7,3.1,3.1,3.4
+Furniture Finisher,Building & Construction,3.5,28810.0,17100,3.4,4.0,3.9,3.7,3.0,2.7,3.1
+Graduate Teaching Assistant,Education & Childcare,3.7,31570.0,159200,3.5,4.0,3.9,3.9,3.4,3.4,2.8
+Industrial Organizational Psychologist,Humanities,4.0,76950.0,2000,3.9,4.2,4.0,4.2,3.8,3.5,3.8
+Infantry Soldier,Military,3.5,,,3.0,3.8,3.5,3.8,3.1,3.6,2.7
+Jeweler,Visual Arts,3.5,36870.0,39800,3.3,3.9,3.6,3.9,3.1,2.8,2.8
+Judicial Law Clerk,Law,3.3,48640.0,12400,3.2,3.7,3.5,3.5,2.9,2.6,2.6
+Locksmith,Public & Social Services,3.4,38600.0,20900,3.3,3.9,3.5,4.0,3.3,2.5,2.9
+Machine Feeder,Manufacturing & Processing,2.2,29290.0,104200,2.1,2.9,2.6,2.2,1.8,1.6,2.7
+Machinist,Manufacturing & Processing,3.0,39980.0,399700,2.8,3.5,3.1,3.5,2.8,2.5,3.1
+Maintenance Worker,Building & Construction,3.0,36170.0,1374700,2.8,3.6,3.2,3.1,2.7,2.2,3.0
+Marriage Therapist,Counseling Services,3.5,48040.0,33700,3.0,3.9,3.5,3.6,3.5,3.3,2.7
+Medical Secretary,Public & Social Services,3.1,32240.0,527600,2.8,3.8,3.5,3.1,2.6,2.6,2.8
+Industrial Engineer,Engineering,3.2,81490.0,241100,3.0,3.7,3.4,3.4,3.0,2.6,3.5
+Midwife,Alternative Health Care,3.9,49430.0,44200,3.8,4.0,3.5,4.3,3.8,4.3,3.3
+Industrial Machinery Mechanic,Mechanical,3.4,48630.0,332200,3.2,3.6,3.3,4.0,3.3,2.7,3.3
+Industrial Production Manager,Manufacturing & Processing,3.2,92470.0,173400,2.9,3.8,3.3,3.5,3.0,2.7,3.3
+Military Tactical Operations Leader,Military,3.8,,,3.4,4.2,3.9,4.0,3.6,3.8,3.3
+Computer & Information Research Scientist,Technology,3.7,108360.0,25600,3.5,3.9,3.8,3.8,3.5,3.4,3.1
+Insurance Appraiser,Public & Social Services,2.7,63420.0,15500,2.3,3.2,3.0,3.0,2.6,2.0,3.1
+Insurance Sales Agent,Sales & Marketing,2.6,47860.0,466100,2.3,3.2,3.0,2.7,2.4,2.2,2.8
+Underwriter,Public & Social Services,2.8,64220.0,103400,2.5,3.3,3.1,2.9,2.5,2.1,3.1
+Ironworker,Building & Construction,3.3,48200.0,61400,3.0,3.8,3.7,3.7,3.1,2.7,3.6
+Janitor,Public & Social Services,2.3,22840.0,2360600,2.2,3.1,2.8,2.0,1.8,1.8,2.6
+Legislator,Law,3.6,20180.0,58300,3.3,3.7,3.6,3.8,3.4,3.5,3.0
+Library Assistant,Education & Childcare,3.4,23910.0,108800,3.4,4.0,3.9,3.5,2.7,2.9,3.1
+Mining Machine Operator,Mechanical,2.8,48440.0,12300,2.6,3.6,2.8,2.8,2.4,2.3,3.3
+Model Maker,Film & Television,3.7,30940.0,2600,3.7,3.9,3.8,4.0,3.5,3.2,3.0
+Molecular Biologist,Physical Sciences,3.6,74720.0,36400,3.3,3.8,3.6,4.1,3.4,3.2,2.8
+Motorcycle Mechanic,Mechanical,3.7,34010.0,17000,3.8,4.3,3.9,4.0,3.2,3.0,2.7
+Music Therapist,Alternative Health Care,3.9,44000.0,18600,3.5,4.2,3.7,4.5,3.6,4.0,3.3
+Naturopathic Physician,Physicians,3.9,73400.0,50100,3.4,4.2,3.8,4.3,3.7,3.7,2.8
+Nursery Worker,Horticulture,3.3,19060.0,470200,3.2,3.9,3.6,3.5,2.8,2.8,2.5
+Agricultural Worker,Agriculture,3.3,22930.0,216100,3.2,3.7,3.6,3.4,2.8,2.9,3.1
+Cement Mason,Building & Construction,3.2,36760.0,155200,3.0,3.5,3.5,3.3,3.0,2.8,3.0
+Pediatrician,Physicians,4.1,163350.0,34800,4.0,4.3,3.8,4.1,4.0,4.1,4.1
+Personal Care Aide,Medical Care,3.2,20440.0,1768400,2.9,3.8,3.3,3.3,2.7,3.3,2.6
+Customer Service Representative,Public & Social Services,2.6,31200.0,2581800,2.4,3.5,3.0,2.6,2.3,2.0,2.6
+HVAC Technician,Building & Construction,3.3,44630.0,292000,3.1,3.7,3.4,3.6,3.2,2.8,3.2
+Metal Worker,Manufacturing & Processing,2.7,28810.0,129500,2.7,2.9,2.6,3.1,2.5,2.3,2.6
+Lodging Manager,Management,3.2,47680.0,48400,3.0,3.8,3.4,3.4,2.9,2.6,2.7
+Potter,Visual Arts,4.1,29820.0,41400,4.2,4.2,4.3,4.3,3.8,4.0,2.7
+Logging Worker,Manufacturing & Processing,3.4,34490.0,8200,3.3,3.7,3.7,3.5,3.1,3.0,3.4
+Personal Chef,Food & Drink,3.7,22940.0,35900,3.6,4.0,3.8,4.0,3.5,3.2,3.2
+Psychiatrist,Physicians,3.6,181880.0,28200,3.4,3.9,3.7,3.8,3.5,3.2,3.9
+Logistician,Management,3.1,73870.0,130400,2.8,3.6,3.3,3.3,2.9,2.6,3.0
+Machine Assembler,Manufacturing & Processing,2.6,38310.0,39000,2.5,3.2,2.8,2.8,2.3,2.1,3.1
+Management Consultant,Finance,3.6,,,3.3,3.9,3.5,3.8,3.5,3.0,3.7
+Naval Architect,Building & Construction,3.5,92930.0,8300,3.3,3.9,3.8,3.9,3.3,3.1,3.3
+Massage Therapist,Alternative Health Care,3.8,37180.0,168800,3.5,4.1,3.9,4.0,3.5,3.6,3.2
+Radio Mechanic,Mechanical,3.4,47950.0,13600,3.2,3.9,3.6,3.6,3.2,3.0,3.0
+Mathematician,Physical Sciences,3.8,103720.0,3500,3.7,3.9,3.8,4.0,3.7,3.6,3.2
+Radiologic Technologist,Medical Care,3.4,55870.0,197000,3.1,3.8,3.6,3.8,3.3,3.0,3.4
+Mechanical Engineer,Engineering,3.3,83060.0,277500,3.2,3.8,3.4,3.6,3.1,2.8,3.4
+Rail Transportation Worker,Travel & Transportation Services,2.8,43880.0,4000,2.6,3.5,3.1,3.3,2.4,2.0,3.8
+Rehabilitation Counselor,Counseling Services,3.4,34380.0,120100,3.0,3.8,3.5,3.7,3.2,3.7,2.9
+Rigger,Manufacturing & Processing,3.3,41570.0,20800,3.2,3.7,3.2,3.8,3.2,2.7,3.5
+Robotics Engineer,Engineering,4.4,94240.0,136900,4.3,4.4,4.3,4.6,4.3,4.2,3.7
+Roofer,Building & Construction,2.8,35760.0,123400,2.6,3.3,3.0,2.9,2.7,2.3,3.3
+Sailor,Travel & Transportation Services,3.3,39100.0,28300,3.0,3.7,3.5,3.6,3.0,3.0,3.1
+Sewing Machine Operator,Manufacturing & Processing,3.2,21920.0,153900,3.1,3.8,3.6,3.3,2.8,2.4,3.0
+Ship Engineer,Engineering,3.4,68100.0,10300,3.0,3.7,3.6,3.8,3.2,2.9,3.5
+Medical Assistant,Medical Care,3.6,29960.0,591300,3.3,4.0,3.7,3.9,3.3,3.2,2.8
+Mental Health Counselor,Counseling Services,3.6,40850.0,134500,3.1,3.9,3.3,4.0,3.5,3.7,2.6
+Spa Manager,Beauty & Style,3.4,35250.0,255800,3.2,4.0,3.8,3.4,3.0,2.7,2.9
+Special Agent,Law,3.9,79870.0,116700,3.8,4.0,3.9,4.3,3.8,3.6,3.6
+Microbiologist,Medical Research,3.3,67790.0,22400,3.1,3.6,3.3,3.7,3.2,2.9,2.7
+Millwright,Mechanical,3.4,50460.0,40900,3.0,4.1,3.5,3.8,3.5,2.5,3.9
+Mining and Geological Engineer,Engineering,3.4,90160.0,8300,3.4,3.3,3.3,4.0,3.4,3.0,4.1
+Model,Beauty & Style,3.7,19970.0,5800,3.9,4.0,3.8,4.1,3.1,3.2,3.5
+Multimedia Animator,Visual Arts,3.7,63630.0,64400,3.6,3.9,3.6,4.0,3.5,3.3,2.8
+Nuclear Engineer,Engineering,3.5,100470.0,16800,3.0,3.9,3.4,4.0,3.6,3.0,3.6
+Nutritionist,Food & Drink,3.5,,,3.4,3.9,3.4,3.9,3.2,3.4,2.7
+Occupational Health Specialist,Physical Sciences,3.2,69210.0,70300,3.0,3.7,3.6,3.4,2.9,2.8,3.5
+Occupational Therapist,Medical Care,3.4,78810.0,114600,3.0,3.9,3.4,3.6,3.2,3.5,3.5
+Substance Abuse Social Worker,Counseling Services,3.3,41380.0,117800,2.8,3.6,3.1,3.7,3.0,3.3,2.4
+Surgeon,Physicians,4.4,,46000,4.4,4.5,4.2,4.3,4.3,4.5,4.3
+Oil and Gas Rotary Drill Operator,Manufacturing & Processing,3.1,53160.0,27700,3.2,3.3,3.3,3.4,2.9,2.7,3.7
+Surgical Assistant,Medical Care,3.9,41420.0,102200,3.5,4.4,4.3,4.5,3.5,3.5,3.3
+Paralegal,Law,3.0,48350.0,279500,2.7,3.6,3.2,3.3,2.8,2.5,3.0
+Paramedic,Medical Care,3.7,31700.0,241200,3.3,4.0,3.5,4.2,3.5,3.7,2.6
+Switchboard Operator,Public & Social Services,2.9,26550.0,112400,2.7,3.6,3.2,2.7,2.5,2.4,3.4
+Physical Therapist,Medical Care,3.6,82390.0,210900,3.3,3.9,3.5,3.8,3.5,3.6,3.3
+Taxi Driver,Travel & Transportation Services,2.8,23210.0,233700,2.7,3.5,3.1,3.0,2.3,2.1,2.6
+Transportation Planner,Travel & Transportation Services,3.1,75630.0,35600,2.7,3.6,3.3,3.3,2.9,2.6,3.4
+Postal Service Worker,Public & Social Services,2.6,55590.0,69600,2.5,3.2,3.0,2.5,2.2,2.1,3.0
+Power Plant Operator,Manufacturing & Processing,3.5,70070.0,41100,3.1,4.0,3.7,3.8,3.4,3.3,3.9
+Printing Worker,Public & Social Services,3.1,35100.0,173000,3.0,3.7,3.3,3.4,2.8,2.5,2.9
+Private Detective,Public & Social Services,3.7,44570.0,34900,3.5,4.0,3.8,4.2,3.5,3.4,3.0
+Probation Officer,Public & Social Services,3.3,49060.0,91700,3.0,3.6,3.5,3.8,3.0,2.9,2.7
+Property Manager,Management,3.2,54270.0,313800,3.0,3.8,3.5,3.3,2.9,2.6,3.1
+Psychiatric Technician,Medical Care,3.2,31130.0,67900,2.8,3.8,3.1,3.7,2.7,3.2,2.4
+Purchasing Manager,Management,3.2,106090.0,73000,3.0,3.6,3.5,3.3,3.0,2.6,3.2
+Psychologist,Medical Care,3.7,68900.0,155300,3.4,3.9,3.6,4.0,3.5,3.6,3.2
+Quality Control Inspector,Manufacturing & Processing,3.0,44650.0,78200,2.9,3.6,3.3,3.2,2.7,2.4,2.9
+Public Relations Specialist,Sales & Marketing,3.2,55680.0,240700,3.0,3.7,3.4,3.5,3.1,2.7,2.9
+Revenue Agent,Finance,2.8,51120.0,67900,2.7,3.3,3.1,2.9,2.5,2.3,2.9
+Radiation Therapist,Medical Care,3.7,80090.0,16600,3.3,4.1,3.6,4.0,3.5,3.6,3.5
+Sales Engineer,Engineering,3.1,96340.0,69900,2.9,3.6,3.4,3.4,2.9,2.5,3.2
+Grounds Maintenance Worker,Horticulture,2.9,24290.0,1167800,2.8,3.5,3.4,3.1,2.4,2.3,2.8
+Sales Manager,Management,3.1,110660.0,376300,2.8,3.7,3.3,3.2,2.8,2.4,3.1
+School Counselor,Counseling Services,3.7,53370.0,273400,3.5,4.1,3.8,3.9,3.4,3.7,3.1
+Professor,Education & Childcare,3.9,59720.0,75700,3.7,4.2,4.0,4.2,3.8,3.8,2.9
+Securities and Commodities Broker,Finance,3.0,72070.0,341500,2.9,3.4,3.4,3.3,2.9,2.1,3.4
+Security Guard,Law,2.8,24410.0,1095400,2.7,3.6,3.3,2.9,2.3,2.3,2.6
+Real Estate Appraiser,Public & Social Services,3.2,52570.0,85800,2.9,3.6,3.6,3.6,3.0,2.5,2.9
+Receptionist,Public & Social Services,2.8,26760.0,1028599,2.7,3.6,3.2,2.6,2.3,2.1,2.8
+Skincare Specialist,Beauty & Style,3.8,,,3.6,4.3,3.9,4.2,3.7,3.3,3.2
+Social Worker,Public & Social Services,3.4,59100.0,66400,3.0,3.8,3.4,3.8,3.2,3.5,2.5
+Sociologist,Social Sciences,3.6,72810.0,2600,3.4,3.8,3.5,4.0,3.4,3.5,2.8
+Recreation Worker,Public & Social Services,3.6,22620.0,379300,3.5,4.1,3.9,3.8,3.2,3.2,2.7
+Respiratory Therapist,Medical Care,3.5,56730.0,120700,3.0,3.9,3.4,3.9,3.2,3.4,3.3
+Tool and Die Maker,Manufacturing & Processing,3.4,48890.0,77800,3.0,3.7,3.5,3.7,3.3,2.9,3.3
+Speech Language Pathologist,Medical Care,3.3,71550.0,135400,2.8,3.6,3.3,3.7,3.1,3.2,3.2
+Translator,Public & Social Services,3.4,,,3.1,3.7,3.5,3.6,3.3,2.8,2.9
+Sports Referee,Sports & Fitness,3.4,24090.0,19800,3.1,3.8,3.8,3.7,3.0,2.6,3.6
+Statistician,Physical Sciences,3.4,79990.0,30000,3.2,3.6,3.5,3.6,3.3,3.0,3.2
+Tile and Marble Setter,Building & Construction,3.1,38980.0,55100,2.9,3.7,3.4,3.3,2.7,2.4,3.1
+Surgical Technologist,Medical Care,3.5,43350.0,99800,3.0,3.8,3.5,4.2,3.3,3.1,2.9
+Veterinary Technologist,Animals,3.9,31070.0,95600,3.5,4.2,3.8,4.4,3.6,3.6,2.5
+Surveyor,Building & Construction,3.2,57050.0,44300,2.9,3.6,3.6,3.4,2.8,2.7,3.2
+Tailor,Beauty & Style,3.5,26460.0,40500,3.4,3.8,3.4,3.7,3.2,3.3,2.8
+Teacher Assistant,Education & Childcare,3.6,24430.0,1234100,3.4,3.9,3.7,3.7,3.1,3.5,2.7
+Teller,Finance,2.7,25760.0,520500,2.6,3.6,3.2,2.7,2.3,2.0,2.7
+Urban Planner,Visual Arts,3.4,66940.0,38000,3.3,3.7,3.4,3.8,3.2,3.2,3.2
+Athletic Trainer,Sports & Fitness,3.7,43370.0,25400,3.4,4.1,3.7,4.2,3.4,3.3,2.6
+Administrative Assistant,Public & Social Services,2.8,33240.0,2457000,2.7,3.6,3.3,2.7,2.4,2.2,2.9
+Crane Operator,Building & Construction,3.4,50720.0,45500,3.2,3.8,3.5,3.6,3.2,3.0,3.1
+Forest and Conservation Worker,Physical Sciences,3.8,27160.0,14000,3.8,4.0,4.2,4.2,3.3,3.5,3.0
+Health Educator,Medical Care,3.8,50430.0,61400,3.5,4.1,3.8,4.0,3.4,3.8,2.8
+Housekeeping Cleaner,Home & Garden,2.4,20120.0,1457700,2.3,3.3,2.9,2.2,2.0,1.8,2.7
+Water Treatment Plant Operator,Manufacturing & Processing,3.3,44100.0,117000,3.1,3.8,3.6,3.6,3.0,3.0,3.6
+Woodworker,Building & Construction,3.5,,,3.3,3.8,3.6,3.8,3.1,3.2,2.8
+Veterinary Assistant,Animals,3.8,23790.0,73400,3.6,4.1,3.8,4.3,3.4,3.6,2.8
+Stock Clerk,Public & Social Services,2.4,22850.0,1878100,2.3,3.1,2.8,2.2,2.0,1.7,2.5
+Database Administrator,Technology,3.0,80280.0,120000,2.9,3.5,3.4,3.1,2.8,2.5,3.2
+Decorating Worker,Visual Arts,3.5,28750.0,17500,3.4,3.9,3.5,3.8,3.3,3.0,3.0
+Delivery Service Driver,Public & Social Services,2.8,29570.0,884700,2.7,3.7,3.3,2.7,2.1,1.9,2.8
+Dental Assistant,Medical Care,3.4,35390.0,318800,3.0,3.9,3.6,3.7,3.2,2.9,2.8
+Dental Hygienist,Medical Care,3.4,71520.0,200500,3.0,4.1,3.5,3.6,3.3,3.2,3.4
+Diagnostic Medical Sonographer,Medical Care,3.5,67530.0,60700,3.2,3.8,3.4,3.9,3.7,3.2,3.2
+Drywall and Ceiling Tile Installer,Building & Construction,2.8,38100.0,106000,2.6,3.3,3.0,2.7,2.5,2.4,3.0
+Economist,Social Sciences,3.3,95710.0,21500,3.1,3.6,3.4,3.5,3.0,2.9,3.3
+Education Administrator,Education & Childcare,3.6,,,3.3,3.9,3.7,3.8,3.4,3.5,3.0
+Environmental Engineer,Engineering,3.2,83360.0,55100,2.9,3.5,3.2,3.5,3.0,2.7,3.2
+Epidemiologist,Medical Research,3.6,67420.0,5800,3.4,3.9,3.7,3.9,3.5,3.3,3.3
+Financial Quantitative Analyst,Finance,3.5,65440.0,145200,3.3,3.9,3.6,3.9,3.4,2.9,3.7
+Financial Manager,Management,3.2,115320.0,555900,3.0,3.8,3.4,3.4,3.1,2.6,3.3
+Fire Inspector,Public & Social Services,3.6,56130.0,12400,3.4,3.8,4.0,3.7,3.1,3.3,3.1
+Fitness Trainer,Sports & Fitness,3.7,34980.0,279100,3.6,4.1,3.9,3.9,3.3,3.5,2.8
+Food Preparation Worker,Food & Drink,2.5,19560.0,873900,2.4,3.2,2.8,2.6,2.1,2.0,2.4
+Air Crew Member,Travel & Transportation Services,3.5,,,3.4,3.9,3.6,3.8,3.1,3.2,3.5
+Artillery Crew Member,Military,3.5,,,3.0,3.8,3.5,4.0,3.5,3.3,2.7
+Lifeguard,Public & Social Services,3.3,19090.0,141300,3.3,4.0,3.7,3.1,2.8,2.8,3.1
+Healthcare Social Worker,Public & Social Services,3.3,51930.0,160100,2.8,3.8,3.4,3.5,3.2,3.3,2.6
+Actuary,Finance,2.9,96700.0,24600,2.6,3.4,3.3,3.0,2.9,2.1,3.8
+Agricultural and Food Science Technician,Agriculture,3.0,35140.0,33000,2.9,3.5,3.3,3.1,2.7,2.6,2.9
+Air Crew Officer,Military,3.7,,,3.6,4.1,3.8,4.1,3.5,3.6,4.2
+Amusement Attendant,Public & Social Services,3.0,18880.0,288600,3.1,3.8,3.3,3.2,2.3,2.3,2.4
+Armored Assault Vehicle Crew Member,Military,3.6,,,3.2,3.9,3.8,3.9,3.2,3.6,2.9
+Bank Branch Manager,Finance,3.1,115320.0,555900,2.8,3.8,3.4,3.2,3.0,2.6,3.1
+Barista,Food & Drink,3.0,18740.0,481200,3.0,3.8,3.4,3.2,2.3,2.2,2.6
+Bioinformatics Scientist,Physical Sciences,3.5,74720.0,36400,3.3,4.0,3.7,4.0,3.4,2.9,3.0
+News Anchor,Journalism & Writing,3.9,61450.0,5100,3.7,4.1,3.7,4.2,3.8,3.6,2.9
+Clinical Research Coordinator,Medical Research,3.3,120050.0,55100,2.9,3.7,3.5,3.7,2.9,2.9,2.8
+Compliance Manager,Law,3.0,105060.0,985600,2.7,3.5,3.2,3.2,2.9,2.6,3.2
+Computer Systems Engineer,Technology,3.6,83410.0,233000,3.5,4.0,3.7,3.7,3.3,3.1,3.5
+Concierge,Public & Social Services,3.0,28170.0,31200,2.9,3.8,3.3,3.1,2.6,2.2,2.6
+Counseling Psychologist,Medical Care,3.9,68900.0,155300,3.5,4.4,4.0,4.0,3.8,3.9,3.0
+Credit Analyst,Finance,2.8,67020.0,69400,2.5,3.3,3.1,3.1,2.7,2.2,3.0
+Customs Broker,Travel & Transportation Services,3.0,67280.0,998000,2.7,3.4,3.2,3.4,2.9,2.5,2.5
+Database Architect,Technology,3.5,83410.0,233000,3.4,3.9,3.6,3.9,3.3,3.0,3.4
+Distance Learning Coordinator,Education & Childcare,3.3,77020.0,37800,2.9,3.8,3.7,3.5,2.9,2.6,2.7
+Energy Auditor,Public & Social Services,3.4,67280.0,998000,3.2,3.7,3.6,3.9,2.9,3.2,3.3
+Exhibit Designer,Visual Arts,3.8,49810.0,13300,3.8,3.9,3.8,4.2,3.5,3.3,2.8
+Farm Equipment Mechanic,Mechanical,3.8,36150.0,40300,3.8,3.9,3.6,4.1,3.8,3.8,3.6
+Film Director,Film & Television,4.4,69100.0,122600,4.4,4.4,4.3,4.7,4.3,4.2,3.2
+Financial Analyst,Finance,3.0,78620.0,277600,2.8,3.5,3.3,3.3,2.9,2.4,3.5
+Financial Clerk,Public & Social Services,2.7,36430.0,1760300,2.5,3.2,3.0,2.7,2.5,2.2,3.0
+Fraud Analyst,Finance,3.3,65440.0,145200,3.0,3.7,3.5,3.9,3.0,2.8,3.0
+Fundraising Manager,Management,3.3,101510.0,65800,2.9,3.6,3.4,3.4,3.0,3.3,2.9
+Geneticist,Medical Research,3.4,74720.0,36400,3.2,3.6,3.5,3.8,3.2,3.2,2.8
+Geospatial Information Scientist,Physical Sciences,3.8,83410.0,233000,3.8,3.9,3.9,4.1,3.6,3.4,3.8
+Web Developer,Technology,3.6,63490.0,148500,3.4,3.8,3.8,3.8,3.4,3.0,3.3
+Green Product Marketer,Sales & Marketing,3.5,96720.0,31000,3.5,3.9,3.7,3.8,3.0,3.2,2.6
+Water Engineer,Engineering,3.4,83360.0,55100,3.2,3.5,3.6,3.8,3.3,3.1,3.5
+Video Game Designer,Technology,4.3,83410.0,233000,4.3,4.3,4.3,4.5,4.1,4.1,3.6
+Historian,Humanities,3.7,55870.0,3500,3.5,3.7,3.6,4.2,3.5,3.4,2.6
+Vehicle Cleaner,Public & Social Services,2.9,20670.0,346900,2.6,3.8,3.4,2.8,2.5,1.9,2.7
+Histotechnologist,Medical Care,3.1,59430.0,164800,2.7,3.5,3.3,3.5,2.7,2.7,2.9
+Treasurer,Finance,3.3,115320.0,555900,3.1,3.7,3.6,3.4,3.0,2.9,3.0
+Home Health Aide,Medical Care,3.2,21380.0,913500,2.9,3.7,3.3,3.3,2.8,3.3,2.6
+Human Resources Manager,Management,3.4,102780.0,122500,3.2,3.9,3.6,3.5,3.2,2.9,3.4
+Immunologist,Physicians,3.5,,347200,3.1,3.7,3.5,3.9,3.4,3.1,2.6
+Talent Director,Music,3.5,69100.0,122600,3.3,3.9,3.3,3.8,3.4,3.1,3.0
+Talent Agent,Music,3.9,64200.0,19700,3.8,4.1,3.9,4.3,3.7,3.4,2.8
+Sustainability Officer,Management,3.7,173320.0,343400,3.6,4.0,3.7,4.1,3.3,3.6,3.4
+Intelligence Analyst,Social Sciences,3.7,79870.0,116700,3.3,4.0,3.6,4.1,3.5,3.4,3.3
+Supply Chain Manager,Management,3.2,105060.0,985600,3.0,3.7,3.3,3.4,3.0,2.6,3.3
+Internist,Physicians,3.4,,54300,3.3,3.5,3.5,3.7,3.1,3.3,3.5
+Street Vendor,Sales & Marketing,2.9,21530.0,80200,2.9,3.6,3.0,3.1,2.4,2.4,2.9
+Museum Conservator,Humanities,3.7,39940.0,11300,3.5,3.9,3.8,4.0,3.3,3.4,2.5
+Investment Fund Manager,Management,3.4,105060.0,985600,3.2,3.8,3.5,3.6,3.3,2.9,3.9
+Stonemason,Building & Construction,3.2,37880.0,14900,2.9,3.5,3.5,3.4,3.0,2.6,3.3
+Kindergarten Teacher,Education & Childcare,3.3,50600.0,159400,3.1,3.7,3.3,3.6,3.0,3.3,2.5
+Software Quality Assurance Engineer,Engineering,3.3,83410.0,233000,3.2,3.9,3.7,3.4,3.0,2.7,3.5
+Landscape Architect,Horticulture,3.5,64570.0,22500,3.3,3.8,3.5,3.9,3.3,3.0,2.8
+Social Fundraiser,Finance,3.3,52430.0,73400,3.0,3.6,3.5,3.5,3.0,3.4,2.7
+Shipmate,Travel & Transportation Services,3.4,72340.0,35100,3.2,3.9,3.5,3.8,3.3,2.8,3.5
+Legal Secretary,Law,3.0,42770.0,215500,2.8,3.5,3.2,3.3,2.7,2.4,3.0
+Search Marketing Strategist,Technology,3.3,83410.0,233000,3.2,3.7,3.6,3.5,3.1,2.6,3.0
+Risk Management Specialist,Finance,3.2,65440.0,145200,2.9,3.6,3.5,3.4,3.0,2.5,3.3
+Nail Technician,Public & Social Services,3.4,19620.0,113600,3.3,3.9,3.5,3.7,3.3,2.8,3.0
+Marketing Manager,Management,3.4,127130.0,194300,3.2,3.8,3.5,3.6,3.2,2.8,3.2
+Materials Scientist,Physical Sciences,3.5,91980.0,7300,3.2,3.7,3.6,3.8,3.4,3.2,3.4
+Proofreader,Journalism & Writing,3.4,34980.0,13600,3.2,3.9,3.7,3.4,3.1,2.7,2.9
+Meter Reader,Public & Social Services,2.8,37580.0,37400,2.6,3.5,3.4,2.8,2.2,1.9,3.3
+Postal Service Clerk,Public & Social Services,2.5,55590.0,69600,2.5,3.2,2.9,2.6,2.1,2.0,3.0
+Pipefitter,Building & Construction,3.5,50660.0,425000,3.2,3.9,3.6,3.7,3.5,3.0,4.0
+Motion Picture Projectionist,Visual Arts,3.3,20830.0,6700,3.4,3.9,3.8,3.8,2.6,2.3,2.4
+Nanny,Education & Childcare,3.4,19730.0,1260600,3.3,4.0,3.7,3.4,2.8,3.2,3.3
+Phlebotomist,Medical Care,3.6,30670.0,112700,3.4,4.1,3.7,4.0,3.4,3.3,2.9
+Park Ranger,Horticulture,3.9,,,3.8,4.2,4.0,4.2,3.4,3.6,3.1
+Nanotechnology Engineer,Physical Sciences,4.1,94240.0,136900,4.1,4.2,4.1,4.3,4.1,4.0,3.5
+Orderly,Medical Care,3.1,24650.0,53000,2.7,3.7,3.2,3.3,2.8,3.2,2.5
+Optician,Medical Care,3.2,34280.0,75200,2.9,3.8,3.4,3.5,2.9,2.5,2.7
+Online Merchant,Sales & Marketing,3.3,67280.0,998000,3.2,3.6,3.7,3.4,3.0,2.7,3.0
+Non-Destructive Testing Specialist,Manufacturing & Processing,3.3,61580.0,70100,3.4,3.5,3.3,3.4,3.2,3.2,3.2
+Costume Attendant,Beauty & Style,3.6,41670.0,6200,3.5,4.0,3.6,4.0,3.1,3.0,3.0
+Film and Video Editor,Film & Television,3.8,57210.0,33500,3.7,4.0,3.8,4.1,3.6,3.3,3.1
+Soil and Plant Scientist,Physical Sciences,3.5,59920.0,17700,3.2,3.9,3.5,3.8,3.4,3.1,2.8
+Dog Groomer,Animals,3.5,,,3.3,3.9,3.5,3.9,3.1,2.9,2.9
+Biochemical Engineer,Engineering,3.8,94240.0,136900,3.5,3.9,3.8,4.0,3.8,3.6,3.5
+Content Manager,Technology,3.4,,,3.2,3.8,3.6,3.6,3.1,2.9,3.1
+Cost Estimator,Finance,2.9,60050.0,213500,2.7,3.3,3.4,3.1,2.7,2.3,3.3
+Publicist,Sales & Marketing,3.2,,,3.0,3.7,3.4,3.4,2.9,2.7,2.5
+Ski Patroller,Sports & Fitness,3.9,,,3.9,4.4,4.5,4.0,3.4,3.2,2.5
+Consultant,Management,3.5,,,3.3,3.9,3.6,3.8,3.4,3.0,3.5
+Calligrapher,Visual Arts,4.0,58250.0,13400,3.9,4.3,4.1,4.2,3.9,3.8,2.8
+Investment Banker,Finance,2.9,65440.0,145200,2.6,3.4,3.0,3.3,2.9,2.4,3.6
+Project Manager,Management,3.4,,,3.1,3.9,3.6,3.6,3.2,2.8,3.3
+Engineer,Engineering,3.4,,,3.2,3.7,3.5,3.6,3.1,3.0,3.3
+Software Engineer,Technology,3.4,95510.0,718400,3.2,3.8,3.6,3.6,3.3,2.8,3.6
+Music Producer,Music,4.4,,,4.4,4.4,4.2,4.7,4.2,4.4,2.8
+Information Security Analyst,Technology,3.3,88890.0,82900,3.0,3.7,3.4,3.7,3.1,2.7,3.5
+Restaurant Cook,Food & Drink,2.8,22490.0,1109700,2.6,3.4,2.9,3.0,2.5,2.1,2.4
+Scientist,Humanities,3.7,,,3.3,3.9,3.7,4.1,3.5,3.5,2.9
+Computer Systems Administrator,Technology,3.3,75790.0,382600,3.1,3.8,3.6,3.6,3.2,2.6,3.3
+Teacher,Education & Childcare,3.4,,,3.1,3.8,3.4,3.7,3.2,3.5,2.7
+Dog Trainer,Animals,4.1,,,3.9,4.3,4.1,4.5,3.7,3.9,3.1
+Telemarketer,Sales & Marketing,2.0,22740.0,237900,1.8,2.7,2.3,2.0,1.8,1.5,2.5
+Business Analyst,Finance,3.3,80880.0,758000,3.0,3.7,3.5,3.4,3.1,2.6,3.4
+Dog Walker,Animals,3.7,,,3.7,4.2,4.0,3.9,2.8,3.2,3.3
+Music Editor,Film & Television,4.2,,,3.9,4.4,4.3,4.5,4.1,3.7,3.0
+Physicist,Physical Sciences,3.8,109600.0,18100,3.6,3.9,3.7,4.1,3.8,3.5,3.0
+Copywriter,Journalism & Writing,3.4,58850.0,136500,3.2,3.8,3.6,3.6,3.2,2.7,2.9
+Choir Director,Music,3.8,,,3.6,4.1,3.5,4.2,3.5,3.7,2.6
+Nurse Practitioner,Medical Care,3.6,95350.0,126900,3.0,3.8,3.5,4.1,3.6,3.8,3.9
+Food Server,Public & Social Services,2.6,18730.0,2465100,2.5,3.6,2.9,2.5,2.1,1.8,2.6
+Technical Support Specialist,Technology,3.1,47610.0,585900,2.8,3.6,3.4,3.3,2.8,2.4,3.0
+Truck Driver,Travel & Transportation Services,2.9,39520.0,1797700,2.8,3.5,3.1,3.0,2.4,2.3,3.0
+Musician,Music,4.1,,173300,4.1,4.2,3.9,4.5,4.0,4.1,2.6
+Producer,Film & Television,3.8,69100.0,122600,3.6,4.0,3.8,4.1,3.6,3.3,2.9
+Session Musician,Music,4.1,,,4.0,4.3,4.0,4.4,4.0,4.1,2.9
+Building and Construction Inspector,Building & Construction,3.5,56040.0,101200,3.2,3.7,3.7,3.8,3.3,3.2,3.2
+Preschool Teacher,Education & Childcare,3.5,28120.0,441000,3.2,3.9,3.5,3.7,3.0,3.5,2.3
+Technical Writer,Technology,3.1,69030.0,52000,2.8,3.5,3.5,3.2,2.8,2.4,3.2
+Booking Agent,Sales & Marketing,2.8,,,2.9,3.1,3.1,2.8,2.3,2.3,2.2
+Food Safety And Quality Technician,Physical Sciences,2.9,44650.0,,2.8,3.6,2.9,3.3,2.8,2.2,2.6
+Sign Language Interpreter,Public & Social Services,3.8,43590.0,61000,3.7,3.9,3.7,4.2,3.8,3.8,3.2
+Music Critic,Music,3.9,,,3.8,4.2,4.0,4.3,3.4,3.6,2.3
+High School Teacher,Education & Childcare,3.4,56310.0,961600,3.0,3.7,3.3,3.8,3.3,3.5,2.6
+Sculptor,Visual Arts,4.0,,,4.1,4.2,3.9,4.4,3.8,3.8,2.3
+Registered Nurse,Medical Care,3.3,66640.0,2751000,2.7,3.7,3.2,3.8,3.3,3.2,3.4
+Social Media Manager,Technology,3.3,,,3.2,3.8,3.6,3.5,3.1,2.7,2.9
+Piano Accompanist,Music,4.0,,,4.0,4.2,4.1,4.2,3.9,3.6,3.1
+Music Business Manager,Sales & Marketing,3.5,,,3.5,3.7,3.4,4.0,3.3,3.1,2.4
+Controller,Finance,3.1,,,3.0,3.6,3.4,3.4,3.0,2.4,3.4
+Physician Assistant,Medical Care,3.5,95820.0,94400,3.1,3.8,3.6,4.0,3.4,3.5,3.7
+Illustrator,Visual Arts,4.0,43890.0,26300,4.0,4.1,4.0,4.4,3.8,3.7,2.7
+Recruiter,Sales & Marketing,3.1,57420.0,482000,2.8,3.7,3.3,3.2,2.7,2.6,3.0
+Wedding Planner,Public & Social Services,3.7,46490.0,100000,3.5,4.2,3.8,4.0,3.5,3.3,3.0
+Tax Preparer,Finance,3.0,35990.0,90400,2.7,3.4,3.2,3.3,3.0,2.4,3.1
+Music Studio Owner,Technology,4.0,,,4.1,4.1,3.7,4.2,4.0,3.7,2.6
+Recording Engineer,Music,3.9,,,3.9,4.0,3.8,4.3,3.7,3.6,2.8
+Organic Farmer,Agriculture,3.7,,,3.7,3.9,4.1,3.9,3.0,3.6,2.7
+Environmental Consultant,Physical Sciences,3.1,66250.0,94600,2.8,3.6,3.3,3.4,2.8,2.4,2.9
+Zoo Educator,Animals,3.9,,,3.8,4.3,4.1,4.3,3.4,3.6,2.4
+Comedian,Performing Arts,4.3,,,4.4,4.5,4.0,4.6,4.1,4.3,2.8
+Lawn Care Specialist,Horticulture,3.0,31240.0,36400,2.9,3.7,3.5,3.0,2.4,2.3,3.0
+Rancher,Agriculture,4.0,,,3.9,4.3,4.3,4.3,3.7,3.8,3.2
+Data Analyst,Technology,3.2,,,3.0,3.6,3.4,3.4,3.0,2.5,3.2
+Motivational Speaker,Performing Arts,4.3,,,4.2,4.5,4.3,4.5,4.2,4.3,3.3
+Agronomist,Agriculture,3.7,,,3.6,3.7,3.9,4.0,3.6,3.5,3.4
+Radio Talk Show Host,Performing Arts,4.2,,,4.2,4.4,4.3,4.5,3.9,4.0,2.4
+Life Coach,Public & Social Services,4.2,,,4.1,4.4,4.1,4.4,4.0,4.3,3.2
+Loan Officer,Finance,2.9,62620.0,303200,2.6,3.5,3.1,3.0,2.6,2.3,2.9
+Petroleum Engineer,Engineering,3.3,130050.0,35100,3.0,3.6,3.4,3.7,3.0,3.0,3.7
+Meteorologist,Physical Sciences,3.8,,,3.6,4.1,3.7,4.1,3.8,3.5,3.4
+Executive Producer,Film & Television,3.6,,,3.5,3.9,3.7,3.9,3.4,3.1,3.4
+CFO,Finance,3.5,,,3.3,4.1,3.7,3.7,3.3,3.1,3.3
+COO,Management,3.9,,,3.7,4.3,3.9,4.0,3.9,3.5,3.5
+Digital Marketing Specialist,Technology,3.3,61290.0,,3.2,3.7,3.5,3.6,3.1,2.6,3.0
+Power Engineer,Engineering,3.1,56330.0,39100,2.9,3.5,3.2,3.5,2.9,2.6,3.6
+Photojournalist,Visual Arts,4.1,,,4.0,4.3,4.1,4.5,3.9,4.0,2.9
+Registered Dietitian Nutritionist,Food & Drink,3.3,56950.0,66700,3.0,3.9,3.4,3.7,3.0,3.1,3.0
+Garbage Collector,Public & Social Services,2.7,33660.0,131500,2.7,3.1,3.2,2.5,2.3,2.5,3.3
+Luthier,Music,3.9,33150.0,,3.9,4.0,4.0,4.3,3.8,3.4,3.3
+Tattoo Artist,Visual Arts,4.1,,,4.0,4.5,4.0,4.5,3.8,3.7,3.5
+Search Engine Optimization Specialist,Technology,3.3,,125000,3.2,3.7,3.6,3.5,3.0,2.6,3.1
+Search Engine Marketing Specialist,Technology,3.2,,125000,3.1,3.4,3.3,3.4,2.9,2.6,2.9
+Medical and Clinical Laboratory Technician,Medical Care,3.2,38370.0,163400,3.0,3.6,3.4,3.6,2.9,2.8,2.9
+Medical and Clinical Laboratory Technologist,Medical Care,3.2,59430.0,164800,2.8,3.6,3.2,3.6,2.8,2.9,2.9
+IT Manager,Technology,3.4,83410.0,233000,3.2,3.9,3.6,3.6,3.3,2.9,3.5
+Brewmaster,Food & Drink,3.6,38590.0,43800,3.5,4.0,3.7,4.3,3.4,3.0,2.8
+Marine Engineer,Engineering,3.7,92930.0,8300,3.6,3.8,3.7,4.2,3.5,3.4,3.8
+Operations Manager,Management,3.4,97270.0,2124100,3.2,3.9,3.6,3.6,3.3,2.8,3.2
+Sales Representative,Sales & Marketing,2.9,55020.0,1453100,2.6,3.5,3.2,3.0,2.7,2.3,3.1
+Executive Assistant,Public & Social Services,3.0,51270.0,776600,2.8,3.7,3.3,2.9,2.6,2.3,3.1
+Shipping/Receiving Clerk,Travel & Transportation Services,2.6,29930.0,670200,2.5,3.4,3.1,2.6,2.2,1.9,2.7
+Drill Press Operator,Manufacturing & Processing,2.9,34500.0,17800,2.8,3.2,2.8,3.4,2.8,2.4,2.5
+Agricultural Engineer,Agriculture,3.6,71730.0,2900,3.3,4.1,3.8,4.0,3.4,3.3,3.0
+Operations Research Analyst,Finance,3.3,76660.0,91300,3.0,3.7,3.5,3.6,3.1,2.7,3.4
+Medical Records Technician,Medical Care,2.9,35900.0,188600,2.7,3.6,3.3,3.1,2.5,2.3,2.7
+Cashier,Public & Social Services,2.4,19060.0,3424200,2.2,3.3,2.7,2.2,2.0,1.7,2.4
+Office Clerk,Public & Social Services,2.7,28670.0,3062500,2.7,3.4,3.2,2.6,2.3,2.1,2.8
+Pharmacy Technician,Medical Care,3.2,29810.0,372500,2.9,3.8,3.4,3.6,3.0,2.7,2.7
+Kinesiologist,Alternative Health Care,3.5,,,3.3,3.9,3.6,3.8,3.2,3.2,2.8
+School Psychologist,Education & Childcare,3.7,68900.0,155300,3.3,3.9,3.6,4.1,3.5,4.0,3.4
+Office Manager,Management,3.1,,1466100,2.9,3.8,3.5,3.1,2.8,2.5,3.0
+Physical Therapist Assistant,Medical Care,3.4,,78700,3.2,3.9,3.5,3.6,3.0,3.3,2.9
+Occupational Therapist Assistant,Medical Care,3.4,,33000,3.1,3.6,3.3,3.5,3.2,3.5,3.4
+Market Research Analyst,Sales & Marketing,3.2,,495500,3.0,3.6,3.3,3.5,3.0,2.7,3.2
+Product Manager,Sales & Marketing,3.6,,341200,3.4,4.0,3.7,3.9,3.5,3.0,3.5
+Data Scientist,Technology,3.5,,95800,3.3,3.7,3.6,3.7,3.3,3.0,3.6
+Account Manager,Management,3.0,,,2.8,3.7,3.4,3.1,2.7,2.3,3.0
+Retail Manager,Management,2.9,,1537800,2.6,3.8,3.2,3.0,2.7,2.2,2.6
+Car Salesman,Sales & Marketing,2.7,,,2.5,3.4,2.9,3.0,2.5,2.0,3.0
+Merchandiser,Sales & Marketing,3.0,,120800,2.9,3.7,3.3,3.3,2.7,2.3,2.7
+Blogger,Journalism & Writing,3.9,,,3.7,4.1,4.0,4.1,3.6,3.6,2.3
+Video Game Producer,Technology,4.5,,,4.5,4.5,4.6,4.5,4.4,4.3,3.8
+Games Artist,Technology,4.1,,,4.1,4.2,4.1,4.4,4.0,3.9,3.4
+Ophthalmic Medical Technician,Medical Care,3.5,,,3.0,4.0,3.3,4.1,3.3,3.0,2.6
+Lobbyist,Social Sciences,3.6,,,3.3,3.8,3.6,4.2,3.5,3.5,3.4
+Hostess,Food & Drink,2.7,,,2.5,3.6,3.0,2.5,2.3,2.0,2.7
+Live Sound Engineer,Music,4.0,,,4.0,4.1,3.9,4.5,3.7,3.9,3.2
+Hospitalist,Physicians,3.1,,,2.9,3.8,3.3,3.3,2.6,2.8,3.0
+Compensation and Benefits Manager,Management,3.0,,,2.7,3.7,3.4,3.0,2.9,2.7,3.4
+Fork Lift Operator,Manufacturing & Processing,2.8,31340.0,530900,2.6,3.6,3.2,2.9,2.3,2.0,3.0
+Community Health Worker,Medical Care,3.7,,,3.4,4.0,3.8,3.9,3.4,3.7,2.9
+Dietetic Technician,Food & Drink,3.0,,,2.8,3.4,3.0,3.3,2.7,2.8,2.9
+Pharmaceutical Sales Representative,Sales & Marketing,3.2,,,2.9,3.8,3.6,3.4,3.0,2.7,3.7
+App Developer,Technology,3.7,,,3.6,3.9,3.9,4.1,3.5,3.2,3.4
+UX Designer,Technology,3.6,,204800,3.5,4.0,3.7,4.0,3.4,3.1,3.6
+Front-End Developer,Technology,3.5,,127000,3.4,3.8,3.7,3.8,3.4,2.9,3.5
+Javascript Developer,Technology,3.6,,127000,3.8,3.9,3.7,3.7,3.4,3.3,3.7
+Back-End Developer,Technology,3.6,,127000,3.5,3.9,3.8,3.8,3.4,3.1,3.6
+Full Stack Developer,Technology,3.7,,127000,3.6,4.1,4.0,4.0,3.6,3.1,3.5
+Computer Systems Analyst,Technology,3.2,,,3.0,3.7,3.4,3.4,3.0,2.6,3.4
+Nurse Educator,Medical Care,3.7,,,3.5,4.1,3.8,3.9,3.5,3.5,3.4
+Psychiatric Aide,Medical Care,3.4,,,3.0,3.7,3.3,3.9,2.9,3.3,2.7
+Licensed Practical Nurse,Medical Care,3.3,42490.0,719900,2.8,3.7,3.2,3.7,3.0,3.2,3.0
+Art Therapist,Alternative Health Care,3.7,,,3.5,4.2,3.5,3.9,3.6,3.6,2.8
+Recreational Therapist,Alternative Health Care,3.6,,,3.3,4.0,3.5,3.8,3.2,3.7,2.8
+Credit Counselor,Finance,3.0,,,2.9,3.9,3.0,2.9,2.9,2.7,2.8
+Chemical Technician,Manufacturing & Processing,3.4,,,3.2,3.9,3.7,3.7,3.1,2.8,3.0
+Mechatronics Engineer,Engineering,3.8,,,3.6,4.1,3.8,4.0,3.7,3.4,3.4
+Desktop Publisher,Technology,3.3,,,3.1,3.8,3.8,3.7,2.9,2.5,2.7
+Ethical Hacker,Technology,4.1,,,4.2,3.8,4.0,4.3,4.1,4.3,3.4
+Technical Product Manager,Technology,3.7,,,3.6,4.2,3.8,3.9,3.8,3.0,3.8
+Kennel Technician,Animals,3.5,,,3.3,4.0,3.6,3.7,2.8,3.2,2.6
+IT Security Consultant,Technology,3.5,,,3.2,3.8,3.6,3.7,3.3,3.0,3.5
+Quality Assurance Analyst,Technology,3.1,,,2.9,3.8,3.5,3.3,2.8,2.5,3.1
+Biotechnician,Physical Sciences,3.4,,,3.2,3.7,3.5,3.7,3.1,3.0,3.0
+Budget Analyst,Finance,3.2,,,3.1,3.4,3.4,3.3,3.0,2.7,3.4
+Art Teacher,Education & Childcare,3.7,,,3.5,4.0,3.7,3.9,3.5,3.5,2.8
+Videographer,Visual Arts,3.8,,,3.7,4.2,3.9,4.2,3.7,3.5,3.0
+Computer Network Architect,Technology,3.6,,,3.6,3.9,3.8,3.7,3.5,2.9,3.6
+Environmental Technician,Physical Sciences,3.2,,,3.0,3.8,3.6,3.5,2.9,2.8,3.1
+Solution Architect,Technology,3.7,,,3.6,4.2,4.0,4.2,3.7,3.0,4.0
+Network Administrator,Technology,3.5,,,3.3,3.9,3.7,3.8,3.3,2.9,3.2
+Server Administrator,Technology,3.3,,,3.2,3.8,3.4,3.4,3.4,2.7,3.3
+Customer Success Manager,Technology,3.2,,,2.9,3.9,3.4,3.2,2.9,2.6,3.1
+Research Chef,Food & Drink,3.7,,,3.4,4.1,3.9,4.2,3.7,3.3,3.1
+Set Designer,Visual Arts,3.9,,,3.8,4.0,3.8,4.3,3.8,3.4,2.9
+Gaffer,Building & Construction,3.5,,,3.5,3.5,3.5,4.0,3.1,3.1,3.0
+Cinematographer,Visual Arts,4.2,,,4.2,4.3,4.2,4.4,4.0,4.0,3.2
+Security Engineer,Technology,3.2,,,2.9,3.5,3.5,3.6,3.1,2.7,3.4
+Court Reporter,Film & Television,3.1,49860.0,20800,3.0,3.5,3.4,3.5,2.7,2.9,3.3
+Counselor,Counseling Services,3.8,,,3.5,4.1,3.8,4.0,3.5,3.8,2.8
+CEO,Management,4.2,,,4.1,4.3,4.3,4.4,4.2,4.1,3.8
+Farm Manager,Management,3.8,68050.0,929800,3.7,3.9,4.0,4.1,3.5,3.5,3.0
+Poultry Farmer,Agriculture,3.4,,,3.3,3.9,3.6,3.4,3.0,2.8,2.6
+Food Science Technologist,Food & Drink,3.4,61480.0,15400,3.3,3.9,3.4,3.8,3.2,3.0,2.9
+Food Processing Production Supervisor,Manufacturing & Processing,2.7,55520.0,,2.5,3.3,2.8,2.8,2.5,2.3,2.8
+Music Manager,Music,4.1,,,4.0,4.3,4.2,4.3,3.8,3.6,2.7
+Beekeeper,Agriculture,4.0,,,4.0,4.2,4.1,4.3,3.7,3.9,3.3
+Medical Transcriptionist,Medical Care,3.2,34750.0,70000,2.9,3.6,3.7,3.5,2.9,2.6,2.9
+Golf Course Superintendent,Horticulture,3.1,,,3.1,3.8,3.3,3.1,2.6,2.4,2.5
+Tree Service Technician,Horticulture,3.1,,,3.0,3.9,3.6,3.4,2.5,2.2,3.3
+Clergy,Education & Childcare,3.9,43950.0,244200,3.7,4.1,3.8,4.1,3.7,4.2,2.9
+Park Naturalist,Horticulture,4.1,61860.0,21100,4.0,4.2,4.5,4.3,3.6,4.0,3.2
+Arborist,Horticulture,3.5,32960.0,53200,3.2,3.9,3.9,3.9,3.1,3.1,3.2
+Irrigation Technician,Horticulture,3.3,24290.0,1167800,3.0,3.8,3.9,3.8,3.0,2.5,2.7
+Greenhouse Technician,Horticulture,3.8,35140.0,33000,3.7,4.2,4.1,4.1,3.2,3.4,2.7
+Horticulturist,Horticulture,3.7,68050.0,929800,3.6,4.0,4.0,4.1,3.2,3.4,2.9
+Horse Trainer,Animals,4.3,,,4.3,4.5,4.3,4.5,4.1,4.0,3.0
+Performer,Performing Arts,4.2,,30000,4.3,4.3,4.1,4.5,3.9,4.1,2.9
+Cartoonist,Visual Arts,4.0,,,4.0,4.1,3.9,4.3,3.8,3.8,3.0
+Retail Salesperson,Sales & Marketing,2.5,21390.0,4624900,2.3,3.4,2.8,2.5,2.1,1.8,2.4
+Entomologist,Animals,3.6,,,3.4,3.9,3.6,4.4,3.3,2.9,3.1
+Franchise Owner,Management,3.6,,,3.2,4.2,3.7,3.7,3.5,3.1,3.0
+Aquarist,Animals,3.8,,,3.7,4.1,4.1,4.2,3.4,3.4,2.5
+Music Artist,Music,4.3,,173300,4.3,4.3,4.1,4.6,4.1,4.2,2.7
+Wildlife Rehabilitator,Animals,4.4,,,4.4,4.5,4.3,4.7,4.0,4.3,2.8
+Animal Trainer,Animals,4.2,25770.0,36800,4.3,4.2,4.2,4.6,3.6,3.9,3.3
