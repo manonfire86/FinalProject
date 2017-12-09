@@ -1,0 +1,358 @@
+---
+title: "Theory of Happiness"
+author: "Hector Santana"
+date: "December 8, 2017"
+output: html_document
+---
+
+### Hypothesis: Modern day happiness often seems to be based on the theory that money is the primary derivative for all purpose, comfort, pleasure, etc. The belief is that money is essentially the root to happiness. By examining the below data on a high level, we can determine how true that is, especially with respect to the USA. Happiness/satisfaction will then be measured on a career basis for the USA alone using similar methods. The primary goal in this analysis is thus to disprove the notion that wealth is the primary contributor to universal happiness.
+
+###Cleaning and prepping the data
+
+### Load Libraries
+
+```{r}
+suppressMessages(suppressWarnings(library(tidyr)))
+suppressMessages(suppressWarnings(library(dplyr)))
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(RCurl)))
+suppressMessages(suppressWarnings(library(ggrepel)))
+suppressMessages(suppressWarnings(library(XML)))
+suppressMessages(suppressWarnings(library(rvest)))
+```
+
+```{r}
+
+twenty_fifteen_happiness = read.csv(text = getURL('https://raw.githubusercontent.com/manonfire86/FinalProject/master/2015_Happiness.csv'))
+twenty_sixteen_happiness = read.csv(text = getURL('https://raw.githubusercontent.com/manonfire86/FinalProject/master/2016_Happiness.csv'))
+twenty_seventeen_happiness = read.csv(text = getURL('https://raw.githubusercontent.com/manonfire86/FinalProject/master/2017_Happiness.csv'))
+
+globalOECDGDP = read.csv(text = getURL('https://raw.githubusercontent.com/manonfire86/FinalProject/master/API_NY.GDP.PCAP.CD_DS2_en_excel_v2.csv'))
+
+avgworldincome = 'https://www.worlddata.info/average-income.php'
+avgworldincometable  = avgworldincome %>%
+  read_html() %>%
+  html_nodes(xpath='//*[@id="tabsort"]') %>%
+  html_table(fill=TRUE)
+
+careersatisfaction = read.csv(text = getURL('https://raw.githubusercontent.com/manonfire86/FinalProject/master/career_satisfaction_14_11_2017.csv'))
+
+```
+
+### Global Happiness Reports: 2015-2017 (cleaning and prepping the data)
+
+```{r}
+twenty_fifteen_happiness_sub = twenty_fifteen_happiness[,c('Country','Happiness.Rank')]
+twenty_fifteen_happiness_sub['Year'] = 2015
+
+twenty_sixteen_happiness_sub = twenty_sixteen_happiness[,c('Country','Happiness.Rank')]
+twenty_sixteen_happiness_sub['Year'] = 2016
+
+twenty_seventeen_happiness_sub = twenty_seventeen_happiness[,c('Country','Happiness.Rank')]
+twenty_seventeen_happiness_sub['Year'] = 2017
+
+longformat_twenty_fifteen_happiness = twenty_fifteen_happiness_sub %>%
+  spread(Year,Happiness.Rank)
+
+longformat_twenty_sixteen_happiness = twenty_sixteen_happiness_sub %>%
+  spread(Year,Happiness.Rank)
+
+longformat_twenty_seventeen_happiness = twenty_seventeen_happiness_sub %>%
+  spread(Year,Happiness.Rank)
+
+
+happiness_ranking_df = merge(longformat_twenty_fifteen_happiness,longformat_twenty_sixteen_happiness,by= 'Country')
+happiness_ranking_df = merge(happiness_ranking_df,longformat_twenty_seventeen_happiness,'Country')
+
+happiness_ranking_df = happiness_ranking_df %>%
+  gather(Year, Rank,'2015':'2017')
+
+top30countries = subset(happiness_ranking_df,Rank<=30)
+
+```
+
+### Mapping the top 30 countries in terms of Happiness Ranking and determining the top absolute changes year over year
+
+```{r}
+countriessorted = happiness_ranking_df[with(happiness_ranking_df,order(Country,Year,Rank)),]
+countriesyoy = countriessorted %>% mutate( chg = ifelse(Country == lag(Country),Rank - lag(Rank),0))
+countriesyoy['Abs_Change'] = abs(countriesyoy['chg'])
+avgyoychange = countriesyoy[,c('Country','Year','Abs_Change')] %>%
+  spread(Year,Abs_Change)
+
+
+avgyoychange[is.na(avgyoychange)] = 0
+
+avgyoychange["Average Change Across Yrs"] = rowMeans(avgyoychange[,2:4])
+
+toptenchanges = avgyoychange[order(avgyoychange$`Average Change Across Yrs`,decreasing = T),]
+toptenchanges = head(toptenchanges,10)
+
+purechanges = countriesyoy[which(countriesyoy$Country %in% toptenchanges$Country),]
+purechanges = purechanges[,c('Country','Year','chg')] %>%
+  spread(Year,chg)
+purechanges["Average Change Across Yrs"] = rowMeans(purechanges[,2:4])
+purechanges = purechanges[order(purechanges$`Average Change Across Yrs`),]
+
+```
+
+
+### What was the contributing factor based on the Happiness Index Data for the countries with the top 10 largest changes 
+
+```{r}
+twenty_fifteen_happiness_attr = twenty_fifteen_happiness[,-2:-5]
+twenty_sixteen_happiness_attr = twenty_sixteen_happiness[,-2:-6]
+twenty_seventeen_happiness_attr = twenty_seventeen_happiness[,-2:-5]
+
+twenty_fifteen_attr_changes = twenty_fifteen_happiness_attr[which(twenty_fifteen_happiness_attr$Country %in% toptenchanges$Country),]
+twenty_sixteen_attr_changes = twenty_sixteen_happiness_attr[which(twenty_sixteen_happiness_attr$Country %in% toptenchanges$Country),]
+twenty_seventeen_attr_changes = twenty_seventeen_happiness_attr[which(twenty_seventeen_happiness_attr$Country %in% toptenchanges$Country),]
+
+twenty_fifteen_attr_changes['Year'] = 2015
+twenty_sixteen_attr_changes['Year'] = 2016
+twenty_seventeen_attr_changes['Year'] = 2017
+
+twenty_fifteen_attr_changes=twenty_fifteen_attr_changes[,-8]
+twenty_sixteen_attr_changes = twenty_sixteen_attr_changes[,-8]
+twenty_seventeen_attr_changes = twenty_seventeen_attr_changes[,-8]
+
+
+newnamevector = c('Country','Economy','Family','Health','Freedom','Trust in Government','Generosity','Year')
+
+colnames(twenty_fifteen_attr_changes) = newnamevector
+colnames(twenty_sixteen_attr_changes) = newnamevector
+colnames(twenty_seventeen_attr_changes) = newnamevector
+
+longdffifteen = twenty_fifteen_attr_changes %>%
+  gather(Attribute,Factor,Economy:Generosity) %>%
+  spread(Year,Factor)
+
+longdfsixteen = twenty_sixteen_attr_changes %>%
+  gather(Attribute,Factor,Economy:Generosity) %>%
+  spread(Year,Factor)
+
+longdfseventeen = twenty_seventeen_attr_changes %>%
+  gather(Attribute,Factor,Economy:Generosity) %>%
+  spread(Year,Factor)
+
+merged_attr_df = merge(longdffifteen,longdfsixteen,by=c('Country','Attribute'))
+merged_attr_df = merge(merged_attr_df,longdfseventeen,by=c('Country','Attribute'))
+merged_attr_df = merged_attr_df %>%
+  gather(Year,Factor,'2015':'2017')
+
+attributessorted = merged_attr_df[with(merged_attr_df,order(Country,Attribute,Year)),]
+attributesyoy = attributessorted %>% mutate( chg = ifelse(Country == lag(Country) & Attribute == lag(Attribute),Factor - lag(Factor),0))
+avgyoyattrchange = attributesyoy[,c('Country','Attribute','Year','chg')] %>%
+  spread(Year,chg)
+
+avgyoyattrchange[is.na(avgyoyattrchange)] = 0
+avgyoyattrchange["Average Change Across Yrs"] = rowMeans(avgyoyattrchange[,3:5])
+
+LargestContributingAttr = avgyoyattrchange[,c('Country','Attribute','Average Change Across Yrs')] %>%
+  spread(Attribute,'Average Change Across Yrs')
+
+maxattributeeachcountry = avgyoyattrchange[,c('Country','Attribute','Average Change Across Yrs')] %>% group_by(Country) %>% top_n(1,abs(`Average Change Across Yrs`))
+
+```
+
+
+### Examining the USA: Career Satisfaction and Global Income Standing 
+
+```{r}
+twenty_fifteen_happiness_USA = twenty_fifteen_happiness[,-2:-5]
+twenty_sixteen_happiness_USA = twenty_sixteen_happiness[,-2:-6]
+twenty_seventeen_happiness_USA = twenty_seventeen_happiness[,-2:-5]
+
+twenty_fifteen_happiness_USA['Year'] = 2015
+twenty_sixteen_happiness_USA['Year'] = 2016
+twenty_seventeen_happiness_USA['Year'] = 2017
+
+twenty_fifteen_happiness_USA=twenty_fifteen_happiness_USA[,-8]
+twenty_sixteen_happiness_USA = twenty_sixteen_happiness_USA[,-8]
+twenty_seventeen_happiness_USA = twenty_seventeen_happiness_USA[,-8]
+
+colnames(twenty_fifteen_happiness_USA) = newnamevector
+colnames(twenty_sixteen_happiness_USA) = newnamevector
+colnames(twenty_seventeen_happiness_USA) = newnamevector
+
+
+USAdffifteen = twenty_fifteen_happiness_USA %>%
+  gather(Attribute,Factor,Economy:Generosity) %>%
+  spread(Year,Factor)
+
+USAdfsixteen = twenty_sixteen_happiness_USA %>%
+  gather(Attribute,Factor,Economy:Generosity) %>%
+  spread(Year,Factor)
+
+USAdfseventeen = twenty_seventeen_happiness_USA %>%
+  gather(Attribute,Factor,Economy:Generosity) %>%
+  spread(Year,Factor)
+
+merged_attr_USA = merge(USAdffifteen,USAdfsixteen,by=c('Country','Attribute'))
+merged_attr_USA = merge(merged_attr_USA,USAdfseventeen,by=c('Country','Attribute'))
+merged_attr_USA = merged_attr_USA %>%
+  gather(Year,Factor,'2015':'2017')
+
+attributesUSA = merged_attr_USA[which(merged_attr_USA$Country == "United States"),]
+attributesUSA= attributesUSA[with(attributesUSA,order(Country,Attribute,Year)),]
+attributesUSAyoy = attributesUSA %>% mutate( chg = ifelse(Country == lag(Country) & Attribute == lag(Attribute),Factor - lag(Factor),0))
+avgyoyUSAchange = attributesUSAyoy[,c('Country','Attribute','Year','chg')] %>%
+  spread(Year,chg)
+
+avgyoyUSAchange[is.na(avgyoyUSAchange)] = 0
+avgyoyUSAchange["Average Change Across Yrs"] = rowMeans(avgyoyUSAchange[,3:5])
+```
+
+###  Career Satisfaction
+
+```{r}
+careersatisfactionUSA = careersatisfaction
+
+factoraverages = colMeans(careersatisfactionUSA[6:12])
+salary_average = mean(careersatisfaction[is.na(careersatisfactionUSA$Salary....USD.)==FALSE,"Salary....USD."])
+
+salarymapping = careersatisfaction[is.na(careersatisfactionUSA$Salary....USD.)==FALSE,]
+salarymapping = salarymapping[order(-salarymapping[,4]),]
+
+careersatisfactionUSA[is.na(careersatisfactionUSA)]=0
+
+
+heatmaptable = salarymapping[,-2:-6]
+
+heatmaptable = heatmaptable[1:50,] %>%
+  gather(Attribute,Factor, Fit:Salary)
+
+analysistableheat = salarymapping[,c(-2,-3,-5)]
+analysistableheat = analysistableheat[1:50,]
+
+```
+
+### Average Global Income
+
+```{r}
+avgworldincomedf = avgworldincometable[[1]]
+colnames(avgworldincomedf) = avgworldincomedf[1,]
+avgworldincomedf = avgworldincomedf[-1,-5]
+row.names(avgworldincomedf) = avgworldincomedf[,1]
+avgworldincomedf[] = lapply(avgworldincomedf,gsub,pattern = ',',replacement = '')
+avgworldincomedf[] = lapply(avgworldincomedf,gsub,pattern = '\\$',replacement = '')
+avgworldincomedf$`Average incomeannually` = as.numeric(avgworldincomedf$`Average incomeannually`)
+avgworldincomedf$monthly = as.numeric(avgworldincomedf$monthly)
+
+USAglobalincomerank = avgworldincomedf[which(avgworldincomedf$Country == 'United States'),]
+
+```
+
+
+### Global OECD GDP Data
+
+```{r}
+globalOECDGDP[is.na(globalOECDGDP)] = 0
+
+globalOECDGDPparsedfourteen = globalOECDGDP[,c("Country.Name","X2014")]
+globalOECDGDPparsedfifteen = globalOECDGDP[,c("Country.Name","X2015")]
+globalOECDGDPparsedsixteen = globalOECDGDP[,c("Country.Name","X2016")]
+
+
+globalOECDGDPparsedfourteen = globalOECDGDPparsedfourteen[with(globalOECDGDPparsedfourteen,order(-globalOECDGDPparsedfourteen$X2014)),]
+globalOECDGDPparsedfifteen = globalOECDGDPparsedfifteen[with(globalOECDGDPparsedfifteen,order(-globalOECDGDPparsedfifteen$X2015)),]
+globalOECDGDPparsedsixteen = globalOECDGDPparsedsixteen[with(globalOECDGDPparsedsixteen,order(-globalOECDGDPparsedsixteen$X2016)),]
+
+toptentableoecd = merge(globalOECDGDPparsedfourteen,globalOECDGDPparsedfifteen,by = 'Country.Name')
+toptentableoecd = merge(toptentableoecd,globalOECDGDPparsedsixteen,by = 'Country.Name')
+toptentableoecd = toptentableoecd[with(toptentableoecd,order(-X2016,-X2015,-X2014)),]
+toptentableoecdfinal = toptentableoecd[1:10,]
+
+tennamescols = c('Countries','2014','2015','2016')
+
+colnames(toptentableoecdfinal) = tennamescols
+
+toptentableoecdfinal = toptentableoecdfinal %>%
+  gather(Year,Average_GDP,`2014`:`2016`)
+```
+
+
+### Analysis
+
+### Below is the mapping of the top 30 Countries Based on Happiness Rankings from 2015 to 2017. As you can see there are some major shifts where countries lost there entire standing within the top 30 or gained position within the top 30, for instance the Czech Republic was not present in 2015, but it made the top 30 in 2016 and 2017. The USA shifted between rank 15, 13, and 14 between 2015 and 2017.
+
+### Analysis: Top 30 Ranked Countries from 2015-2017
+
+```{r, echo=FALSE}
+ggplot(top30countries,aes(y=Rank,x=Year)) + geom_point(aes(color=Country))  + geom_text_repel(aes(label=Country),size = 2,box.padding = .5,point.padding = 1,segment.color = "black",segment.size = .5,arrow = arrow(length = unit(0.01, 'npc')),force = .5) + theme(legend.position = "none") + scale_y_continuous(breaks = round(seq(min(top30countries$Rank),max(top30countries$Rank),by =1))) + labs(title = "Top 30 Countries: Happiness Ranking 2015-2017")
+```
+
+### Given the macro level, it is safe to question what were the largest contributing factors for countries that experience the largest shifts in rankings. Taking the absolute average changes in the data set and then mapping these rankings to their natural year over year changes, I parsed the top 10 countries that experienced the greatest shifts.
+### I then included the data set's happiness factors and mapped them accordingly. This is the first confirmation that money is not the root of happiness; economic sentiment did not have the greatest impact for 70% of the countries mapped. In fact, it was often the compounding effect of all attributes affected in that year that caused the shift in rankings.
+
+### Ten countries with largest Rank shifts: Contributing Factors
+
+```{r, echo=FALSE}
+ggplot(avgyoyattrchange,aes(y=`Average Change Across Yrs`,x=Country,fill=Attribute)) + geom_bar(position = position_dodge(),stat = "identity")   +theme(axis.text.x = element_text(angle = 90, hjust = 1))+labs(title = "Attributes: Average Changes Across 2015-2017",y="Avg Change",x = "Country")
+
+```
+
+### Attributes: Greatest Average Changes Across 2015-2017 for the Ten Selected Countries
+
+```{r}
+print(maxattributeeachcountry)
+```
+
+### Examining the USA specifically, changes in economic sentiment did not have the greatest impact in the rank shifts experienced between 2015 and 2017. The largest affected factor was a sharp decline in geneorsity over the years while trust in government experienced the highest positive average change.
+
+### USA: Contributing Factors
+
+```{r, echo=FALSE}
+ggplot(avgyoyUSAchange,aes(y=`Average Change Across Yrs`,x=Country,fill=Attribute)) + geom_bar(position = position_dodge(),stat = "identity")   +labs(title = "USA Attributes: Average Changes Across 2015-2017",y="Avg Change",x = "Country")
+```
+
+### USA: Average Changes 2015-2017
+
+```{r}
+print(avgyoyUSAchange)
+
+```
+
+### Keeping the hypothesis in mind, I then examine the USA on a micro level. Here I take into consideration career data; this, to me, is the easiest way to determine if money is the root of happiness. It essentially tests the logic that a good job is the one that pays you alot of money.
+### The below heat map however disproves that with the salary factor having the lowest impact on overall job satisfaction; it is the case that fit plays the greatest role in job satisfaction, followed by interest and environment.
+
+
+### Heat Map of Job Happiness USA
+
+```{r, echo=FALSE}
+p = ggplot(heatmaptable, aes(Attribute,Name)) + geom_tile(aes(fill = Factor), colour = "white") + scale_fill_gradient(low = "white", high = "steelblue")
+p + theme_grey(base_size = 9) +labs(x = "",y="") + scale_x_discrete(expand = c(0,0)) + scale_y_discrete(expand=c(0,0)) + labs(title = "USA Job Happiness: Ranked by Salary")
+```
+
+### Overall Scores: Career Satisfaction for the Top 50 paying jobs
+
+```{r}
+print(analysistableheat)
+```
+
+### Using two additional data sets, OECD World GDP Data and World Average Annual Income Data, I further solidify the point that money is not the root of happiness.
+### The United States ranks 9th in the World Average Income Data, higher than its global happiness ranking, and the USA is ranked 8th in the OECD 2016 Data (8th in 2015 and 13th in 2014)
+### Despite the higher economic ranking, happiness rankings as of 2016 are at 14th place.
+
+### Average Annual Global Income: Top 50 countries
+
+```{r, echo=FALSE}
+ggplot(avgworldincomedf[1:50,],aes(y=`Average incomeannually`,x=Country,fill= Rank)) + geom_bar(position = position_dodge(),stat = "identity")  +  theme(axis.text.x = element_text(angle = 90, hjust = 1))+theme(axis.text.x  = element_text(size = 7),axis.text.y  = element_text(size = 7))+theme(legend.position = "none")+labs(title = "Average Global Income: Top 50 Countries",y="Avg Income Annually",x = "Country")
+```
+
+### OECD GDP Mapping
+
+```{r, echo=FALSE}
+ggplot(toptentableoecdfinal,aes(y=Average_GDP,x=Year,fill=Countries)) + geom_bar(position = position_dodge(),stat = "identity")   +labs(title = "Global GDP: Top 10 Countries from 2016 and their previous year values",y="GDP (MM)",x = "Years")
+```
+
+### Directionally Correct Salary Comparison
+
+
+```{r}
+Differenceinincomesources = USAglobalincomerank$`Average incomeannually` - salary_average 
+print(paste("There is only a",abs(round(Differenceinincomesources,0)),"dollar difference in the average salaries calculated in the Average Annual World Income Data and Career Satisfication data for the USA"))
+```
+
+### Conclusion: The data strongly suggests that money is not the root of happiness; economic sentiment does not have the greatest impact on overall happiness on a macro and micro scale. However, it is important to delineate the fact that this is simply scratching the surface of the earth and that a deeper analysis into the complexities of human happiness is warranted based on these preliminary findings.
+
