@@ -1,0 +1,6 @@
+Cited Sources:
+
+https://www.kaggle.com/unsdsn/world-happiness/data
+https://www.sokanu.com/analytics/career-satisfaction
+https://www.worlddata.info/average-income.php
+https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
